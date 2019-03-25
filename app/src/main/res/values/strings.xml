@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Biblios</string>
     <string name="key_title">Title</string>
+    <string name="add_your_book">add your book</string>
+    <string name="enter_your_title">enter your title</string>
+    <string name="todo">TODO</string>
+    <string name="virtual_library_title">virtual library title</string>
+    <string name="virtual_library">Virtual Library</string>
 </resources>
