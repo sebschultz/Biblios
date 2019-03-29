@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         bookTitle = (EditText)findViewById(R.id.bookEditText);
         addBookTitle = (Button)findViewById(R.id.addBookTitle);
 
+        //allows user to input title of book
         addBookTitle.setOnClickListener(new View.OnClickListener() {
         @Override
             public void onClick(View v) {
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
         });
     }
+
+    //instance makes a second screen
     private void makeLibrary(String name){
     Intent intent = new Intent(this, Library.class);
         Resources resources = getResources();

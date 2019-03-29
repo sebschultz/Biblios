@@ -15,6 +15,7 @@ public class Library extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_library);
 
+        //if the user doesnt enter anything, a response will print telling them to put a title in
         Intent intent = getIntent();
         String bookTitle = intent.getStringExtra(getString(R.string.key_title));
         if (bookTitle == null || bookTitle.isEmpty()) {
